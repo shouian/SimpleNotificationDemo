@@ -21,6 +21,7 @@
 		D6CF095118A5EC7400F79BC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CF093318A5EC7400F79BC5 /* UIKit.framework */; };
 		D6CF095918A5EC7400F79BC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6CF095718A5EC7400F79BC5 /* InfoPlist.strings */; };
 		D6CF095B18A5EC7400F79BC5 /* NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF095A18A5EC7400F79BC5 /* NotificationTests.m */; };
+		D6CF096618A5F0ED00F79BC5 /* TakoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF096518A5F0ED00F79BC5 /* TakoButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D6CF095618A5EC7400F79BC5 /* NotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationTests-Info.plist"; sourceTree = "<group>"; };
 		D6CF095818A5EC7400F79BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6CF095A18A5EC7400F79BC5 /* NotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationTests.m; sourceTree = "<group>"; };
+		D6CF096418A5F0ED00F79BC5 /* TakoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakoButton.h; sourceTree = "<group>"; };
+		D6CF096518A5F0ED00F79BC5 /* TakoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakoButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D6CF094118A5EC7400F79BC5 /* Main.storyboard */,
 				D6CF094418A5EC7400F79BC5 /* ViewController.h */,
 				D6CF094518A5EC7400F79BC5 /* ViewController.m */,
+				D6CF096418A5F0ED00F79BC5 /* TakoButton.h */,
+				D6CF096518A5F0ED00F79BC5 /* TakoButton.m */,
 				D6CF094718A5EC7400F79BC5 /* Images.xcassets */,
 				D6CF093618A5EC7400F79BC5 /* Supporting Files */,
 			);
@@ -199,6 +204,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = TakoBear;
 				TargetAttributes = {
+					D6CF092B18A5EC7400F79BC5 = {
+						DevelopmentTeam = D4UQ6H3G28;
+					};
 					D6CF094C18A5EC7400F79BC5 = {
 						TestTargetID = D6CF092B18A5EC7400F79BC5;
 					};
@@ -251,6 +259,7 @@
 			files = (
 				D6CF094618A5EC7400F79BC5 /* ViewController.m in Sources */,
 				D6CF094018A5EC7400F79BC5 /* AppDelegate.m in Sources */,
+				D6CF096618A5F0ED00F79BC5 /* TakoButton.m in Sources */,
 				D6CF093C18A5EC7400F79BC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notification/Notification-Prefix.pch";
 				INFOPLIST_FILE = "Notification/Notification-Info.plist";
@@ -391,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notification/Notification-Prefix.pch";
 				INFOPLIST_FILE = "Notification/Notification-Info.plist";
